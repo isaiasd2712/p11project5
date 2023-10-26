@@ -1,10 +1,15 @@
 import Header from "./components/header";
-import  './App.css';
+import Categorias from "./components/Categorias"
+import Portada from "./components/Portada";
+
 
 function App ()  {
   return (
-   
+        <div>
         <Header/> 
+        <Categorias/>
+        <Portada/>
+        </div>
         
   )
 }
