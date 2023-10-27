@@ -1,13 +1,13 @@
 import './Portada.css'
 import Carrusel from '../assets/Carrusel.png'
 
-function Portada (){
+function Portada() {
     return (
-    <div>
-    <img  className='carrusel' src={Carrusel} alt='un carrusel'></img>
-    </div>
-);   
-      
+        <article>
+            <img className='carrusel' src={Carrusel} alt='un carrusel'></img>
+        </article>
+    );
+
 }
 
 export default Portada;

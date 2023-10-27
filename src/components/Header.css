@@ -2,30 +2,38 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    position: sticky;
+
     
-    
+
+
 
 
 }
+
 .decathlon {
     width: 150px;
-    
-    
-   
+    margin: 10px;
+
+
+
 }
+
 .buscarbtn {
     background-image: url(src/assets/buscarbtn.png);
     background-size: cover;
+    padding-right: 40px;
     width: 40px;
-    height: 35px;
+    height: 36px;
     border-radius: 0 0.2rem 0.2rem 0;
     border: none;
     cursor: pointer;
-    
+
 }
-.buscartxt{
+
+.buscartxt {
     height: 30px;
-    width: 400px;
+    width: 50%;
     border-color: #0082C3;
     border-radius: 0.2rem 0 0 0.2rem;
 }
