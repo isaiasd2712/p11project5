@@ -3,7 +3,7 @@ import Carrusel from '../assets/Carrusel.png'
 
 function Portada() {
     return (
-        <article>
+        <article className='carruselcentrado'>
             <img className='carrusel' src={Carrusel} alt='un carrusel'></img>
         </article>
     );

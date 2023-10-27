@@ -1,11 +1,10 @@
 .fetchdiv{
-    width: 100%;
+    width: 100vw;
     display: flex;
-    overflow-x: scroll;
+    overflow: auto;
+    margin: 20px;
    
-    
-    
-    
+        
 }
 .contimg{
     width: 100%;
@@ -16,7 +15,17 @@
 .fetch {
     height: 180px;
     width: 180px;
-    margin: 20px;
+    padding: 5px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    margin-right: 5px;
+    cursor: pointer;
+    
    
         
+}
+.imgseparador{
+    margin: 10px;
+    font-size: small;
+    font-weight: 800;
+    
 }

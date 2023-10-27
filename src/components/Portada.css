@@ -1,4 +1,8 @@
+.carruselcentrado {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
 .carrusel {
-    width: 10%;
-    margin: 10px
+    width: 80vw
 }

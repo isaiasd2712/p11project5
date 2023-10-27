@@ -4,7 +4,7 @@ import './Imagenes.css'
 
 function Imagenes() {
     return (
-        <div>
+        <div className='imgseparador'>
             <h2>Productos Recomendados</h2>
             <div className="fetchdiv">
             {imagenes.products.map((product) => {
@@ -12,7 +12,7 @@ function Imagenes() {
 
                     <div className='container' key={product.id}>
                         <img className="fetch" src={product.imagen} alt="Ropa" />
-                        <p>{product.precio}</p>
+                        <p>€{product.precio}</p>
                         <p>{product.categoria}</p>
                     </div>
 
